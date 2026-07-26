@@ -22,3 +22,6 @@ jobs:
 
       - name: List repository files
         run: ls -la
+      
+      - name: host name
+        run: hostname -i
