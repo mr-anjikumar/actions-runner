@@ -1,4 +1,4 @@
-name: Hello World
+name: Hello Anji
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Print Hello World
-        run: echo "Hello, World!"
+        run: echo "this is anji output"
 
       - name: Display current date
         run: date
